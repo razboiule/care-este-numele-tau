@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int a, b ,c ,d;
+
+int main ()
+
+{
+ //Suma a doua numere este 64 .Primul nr este cu 2 mai mare decat al doilea. Care sunt cele doua numere?
+
+ cout<<"Care este suma numerelor?"<<endl;
+ cin>>a;
+ cout<<"Cu cat este mai mare primul nr"<<endl;
+ cin>>b;
+ c=(a+b)/2;
+ cout<<"Primul numar este"<<endl;
+ cout<<c<<endl;
+ cout<<"Al doilea numar este"<<endl;
+ d=c-2;
+ cout<<d;
+}
