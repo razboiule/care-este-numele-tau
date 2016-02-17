@@ -1,0 +1,18 @@
+// i/o example
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+ string mystr;
+ cout <<"Care este numele tau?"<<endl;
+ getline (cin,mystr);
+ cout <<"Ce mai faci "<<mystr<<"?"<<endl;
+ getline (cin,mystr);
+ cout <<"Cum de faci "<<mystr<<"?"<<endl;
+ getline (cin,mystr);
+ cout<<"eei "<<mystr<<" spune ce faci?"<<endl;
+
+}
